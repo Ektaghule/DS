@@ -262,5 +262,3 @@ dict5 = {"a": 1, "b": 2, "c": 3}
 def swap_keys_values(d):
     return {value: key for key, value in d.items()}  # Create a new dictionary with keys and values swapped
     print(swap_keys_values(dict5))  # Output: {1: 'a', 2: 'b', 3: 'c'}
-    
-abc
